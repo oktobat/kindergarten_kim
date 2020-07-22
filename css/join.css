@@ -11,8 +11,11 @@
 
 .join_form .info_list {padding:10px 0; border-bottom:1px solid #ccc;}
 .join_form .info_list li {padding:8px 0}
-.join_form .tit_lbl { display:inline-block; width:25%; line-height:45px; font-weight:bold; font-size:17px; letter-spacing: -2px; padding-left:20px }
-.join_form .info_content { display:inline-block; width:74%; }
+.join_form .tit_lbl { display:inline-block; width:20%; line-height:45px; font-weight:bold; font-size:17px; letter-spacing: -2px; padding-left:20px;  }
+.join_form .info_content { display:inline-block; width:79%; vertical-align:top }
 .join_form .info_content input[type=text],
-.join_form .info_content input[type=password] { height:45px; border: 1px solid #ccc; }
+.join_form .info_content input[type=password],
+.join_form .info_content select { height:45px; border: 1px solid #ccc; padding:0 1em; vertical-align:top }
 .join_form .w320 { width:320px }
+.join_form .w160 { width:160px }
+.join_form .info_content span { line-height:45px; }

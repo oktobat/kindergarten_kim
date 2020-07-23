@@ -2,7 +2,7 @@
 @import "reset.css";
 @import "common.css";
 
-#section { padding-top:117px }
+#section { padding-top:117px; }
 .slideOuter { height:600px; 
     overflow:hidden; position:relative; }
 .slideOuter .arr {

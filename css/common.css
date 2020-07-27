@@ -20,6 +20,16 @@
 .topmenu a:hover {color:rgb(255, 255, 255, 1) }    
 .topmenu .sns a { padding-right:10px; font-size:12.2px;  }
 .topmenu .sns a:first-child span { font-size:11px }
+.topmenu .search { position:absolute; top:0; left:50%; transform:translate(-50%) }
+.topmenu .search fieldset { border:2px solid #fff;
+    border-radius:3px; height:25px; }
+.topmenu .search input { border:none; background:none; color:#fff; padding-left:0.5em;
+outline:none; width:200px }
+.topmenu .search ::placeholder { color:#fff }
+.topmenu .search button { background:#fff; color:#000;  border:none; height:21px; 
+padding:0px 5px; vertical-align:top; font-size:11px;
+float:right }
+
 .topmenu .login { position:absolute; top:0; right:0; color:#000 }
 .topmenu .login a { padding-left:10px; font-size:11px }
 .logoNav { position:relative; height:76px;  }

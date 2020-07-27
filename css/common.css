@@ -37,6 +37,9 @@ float:right }
 .logoNav h1 { color:#ffae3d; 
     font-size:26.25px; padding:25.875px 0px 23.875px;
     font-weight:bold;  line-height:15.75px;}
+
+.logoNav .open_nav { display:none } 
+.logoNav .close_nav { display:none }    
 .logoNav .nav { position:absolute; top:0; right:0; }
 .logoNav .nav .depth1 > li { display:inline-block; 
     font-size:15.75px;  

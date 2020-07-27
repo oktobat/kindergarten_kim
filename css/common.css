@@ -20,7 +20,7 @@
 .topmenu a:hover {color:rgb(255, 255, 255, 1) }    
 .topmenu .sns a { padding-right:10px; font-size:12.2px;  }
 .topmenu .sns a:first-child span { font-size:11px }
-.topmenu .search { position:absolute; top:0; left:50%; transform:translate(-50%) }
+.topmenu .search { position:absolute; top:0; right:50%; transform:translate(50%) }
 .topmenu .search fieldset { border:2px solid #fff;
     border-radius:3px; height:25px; }
 .topmenu .search input { border:none; background:none; color:#fff; padding-left:0.5em;
@@ -35,13 +35,19 @@ float:right }
 
 .logoNav { position:relative; height:76px;  }
 .logoNav h1 { color:#ffae3d; 
-    font-size:26.25px; line-height:76px;
-    font-weight:bold;  }
+    font-size:26.25px; padding:25.875px 0px 23.875px;
+    font-weight:bold;  line-height:15.75px;}
 .logoNav .nav { position:absolute; top:0; right:0; }
 .logoNav .nav .depth1 > li { display:inline-block; 
-    font-size:15.75px; line-height:76px;  position:relative; 
-    padding-left:30px; font-weight:bold;     
+    font-size:15.75px;  
+    position:relative; 
+    font-weight:bold;     
     transition:all 0.5s }
+.logoNav .nav .depth1 > li > a {
+    padding:27.5px 0px 27.5px 30px;
+    display:inline-block;
+}
+    
 .logoNav .nav .depth1 > li:hover { 
     color:#ffd23c; }
 .logoNav .nav .depth1 > li:first-child { color:#ffd23c }
@@ -93,15 +99,3 @@ float:right }
     font-size:10.5px; padding:10px 0px; 
     color:#333; }
         
-@media only screen and (max-width:1170px) {
-    .row { padding:0 10px }
-}
-@media only screen and (max-width:992px) {
-    .logoNav { position:relative; height:auto; }
-    .logoNav h1 { color:#ffae3d; 
-        font-size:26.25px; line-height:76px;
-        font-weight:bold; text-align:center }
-    .logoNav .nav { position:static; top:0; right:0;
-         text-align:center; }
-
-}

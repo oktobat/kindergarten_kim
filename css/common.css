@@ -78,7 +78,7 @@ float:right }
 
 #footer { text-align:center; font-size:12.25px }    
 .footerMenu { background:#eee;
-    color:#333; padding:10px }
+    color:#333; padding:10px 0}
 .footerMenu a { padding-left:11px; }  
 .footerMenu a:before { content:'|'; 
     padding-right:11px;
@@ -92,12 +92,14 @@ float:right }
     padding:40px 0 }
 .comInfo .sns a { font-size:17px; padding:0px 10px 10px;
     display:inline-block; }    
+.comInfo .info > div { display:inline-block }    
 .comInfo .info span { letter-spacing:-1px; 
     padding-left:5px }  
 .comInfo .info span:before { content:'|'; 
     padding-right:7px; font-size:6px; 
     position:relative; top:-1px; 
 }  
+.comInfo .info div:nth-child(1) span:first-child:before { display:none }
 .copyright { background:#0a0a0a;
     font-size:10.5px; padding:10px 0px; 
     color:#333; }

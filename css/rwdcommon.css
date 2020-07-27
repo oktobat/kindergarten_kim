@@ -20,27 +20,6 @@
             text-align:center; }
 }
 
-@media only screen and (max-width:768px){
-
-    #footer { text-align:left; font-size:12.25px } 
-    .footerMenu a { padding-left:0px; display:block; 
-        line-height:1.5     }  
-    .footerMenu a:before { content:'|'; 
-    padding-right:11px;
-    font-size:6px; position:relative; top:-1px; display:none; 
-}  
-
-    .comInfo .info > div { display:block }
-    .comInfo .info div:nth-child(2) span:first-child:before { display:none }
-    .comInfo .info > div span { display:block; line-height:1.5em }
-    .comInfo .info span:before { content:'|'; 
-        padding-right:7px; font-size:6px; 
-        position:relative; top:-1px; 
-        display:none; 
-    }  
-}
-
-
 @media only screen and (max-width:841px) {
     .topmenu .login { position:absolute; top:0; right:10px; color:#000; display:none }
 
@@ -61,6 +40,30 @@
     .logoNav .nav { position:static; top:0; right:0;
         text-align:center; display:none;
     }
+}
 
+@media only screen and (max-width:768px){
+
+    #footer { text-align:left; font-size:12.25px } 
+    .footerMenu a { padding-left:0px; display:block; 
+        line-height:1.5     }  
+    .footerMenu a:before { content:'|'; 
+    padding-right:11px;
+    font-size:6px; position:relative; top:-1px; display:none; 
+}  
+
+    .comInfo .info > div { display:block }
+    .comInfo .info div:nth-child(2) span:first-child:before { display:none }
+    .comInfo .info > div span { display:block; line-height:1.5em }
+    .comInfo .info span:before { content:'|'; 
+        padding-right:7px; font-size:6px; 
+        position:relative; top:-1px; 
+        display:none; 
+    }  
+}
+
+@media only screen and (max-width:500px) {
+    .topmenu .search input { border:none; background:none; color:#fff; padding-left:0.5em;
+        outline:none; width:100px }
 
 }

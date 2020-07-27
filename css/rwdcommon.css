@@ -34,7 +34,7 @@
         font-size:25px; transform:translateY(-50%);
     } 
     .logoNav .nav { position:static; top:0; right:0;
-        text-align:center; display:block;
+        text-align:center; display:none;
     }
 
 

@@ -32,11 +32,11 @@ float:right }
 
 .topmenu .login { position:absolute; top:0; right:0; color:#000 }
 .topmenu .login a { padding-left:10px; font-size:11px }
+
 .logoNav { position:relative; height:76px;  }
 .logoNav h1 { color:#ffae3d; 
     font-size:26.25px; line-height:76px;
     font-weight:bold;  }
-
 .logoNav .nav { position:absolute; top:0; right:0; }
 .logoNav .nav .depth1 > li { display:inline-block; 
     font-size:15.75px; line-height:76px;  position:relative; 
@@ -93,3 +93,15 @@ float:right }
     font-size:10.5px; padding:10px 0px; 
     color:#333; }
         
+@media only screen and (max-width:1170px) {
+    .row { padding:0 10px }
+}
+@media only screen and (max-width:992px) {
+    .logoNav { position:relative; height:auto; }
+    .logoNav h1 { color:#ffae3d; 
+        font-size:26.25px; line-height:76px;
+        font-weight:bold; text-align:center }
+    .logoNav .nav { position:static; top:0; right:0;
+         text-align:center; }
+
+}

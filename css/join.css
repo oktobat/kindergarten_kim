@@ -26,9 +26,14 @@
 .join_form .mb3 { margin:0px 0 5px}
 .join_form .info_content button { height:45px; width:80px; border:1px solid #ccc; border-radius:5px }
 .join_form .info_content button:hover { cursor:pointer; background:#ddd }
-.join_form .gender_area label,
-.join_form .hobby_area label
-{ line-height:45px; padding-right:15px  }
+.join_form .gender_area label { line-height:45px; padding-right:15px  }
+.join_form .gender_area label:before { content:'\f058'; font-family:'Font Awesome 5 Free'; font-weight:400; color:#ddd; padding-right:8px }
+.join_form .gender_area input[type=radio]:checked + label:before { font-weight:900; color:#f00;  }
+
+.join_form .hobby_area label { line-height:45px; padding-right:15px  }
+
+.join_form .gender_area input[type=radio] { display:none  }
+.join_form .hobby_area input[type=checkbox] { display:none  }
 
 .join_form .info_content textarea {
     height: 245px; width:70%;

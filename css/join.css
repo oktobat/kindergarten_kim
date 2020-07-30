@@ -23,7 +23,9 @@
 .join_form .info_content select::-ms-expand { display:none }
 .join_form .info_content .emailbox { position:relative; }
 .join_form .info_content .emailbox:after { content:"\f0dd"; position:absolute; 
-    top:50%; right:15px; font-family:'Font Awesome 5 Free'; font-weight:900; z-index:-1; color:red;  }
+    top:50%; right:15px; font-family:'Font Awesome 5 Free'; font-weight:900; z-index:-1; color:red;
+    transform:translateY(-50%);
+}
 .join_form .w320 { width:320px}
 .join_form .w160 { width:160px}
 .join_form .addr_box span { line-height:45px; }

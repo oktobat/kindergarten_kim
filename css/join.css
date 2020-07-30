@@ -19,6 +19,14 @@
 .join_form .info_content input[type=password],
 .join_form .info_content input[type=date],
 .join_form .info_content select { height:45px; border: 1px solid #ccc; padding:0 1em; vertical-align:top;  }
+.join_form .info_content select { appearance:none; background:transparent; position:relative; z-index:999 }
+.join_form .info_content select::-ms-expand { display:none }    
+.join_form .info_content .email_box:after {
+    content:'\f0dd'; 
+    font-family:'Font Awesome 5 Free';
+    font-weight:900; color:red; 
+    line-height:45px; display:inline-block; 
+    transform:translateX(-30px);  } 
 .join_form .w320 { width:320px}
 .join_form .w160 { width:160px}
 .join_form .addr_box span { line-height:45px; }
@@ -31,6 +39,18 @@
 .join_form .gender_area input[type=radio]:checked + label:before { font-weight:900; color:#f00;  }
 
 .join_form .hobby_area label { line-height:45px; padding-right:15px  }
+.join_form .hobby_area label:before {
+    content:'\f0c8'; 
+    display:inline-block;
+    transform:scale(2);
+    font-family:'Font Awesome 5 Free';
+    font-weight:400; color:#ddd; 
+    padding-right:8px }
+.join_form .hobby_area input[type=checkbox]:checked + label:before {
+        content:'\f14a';
+        font-family:'Font Awesome 5 Free';
+        font-weight:900; color:#f00;
+        padding-right:8px }    
 
 .join_form .gender_area input[type=radio] { display:none  }
 .join_form .hobby_area input[type=checkbox] { display:none  }

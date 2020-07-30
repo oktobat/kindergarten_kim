@@ -19,6 +19,10 @@
 .join_form .info_content input[type=password],
 .join_form .info_content input[type=date],
 .join_form .info_content select { height:45px; border: 1px solid #ccc; padding:0 1em; vertical-align:top;  }
+.join_form .info_content select { appearance: none; padding-right:0px;  background:transparent }
+.join_form .info_content .emailbox { position:relative; }
+.join_form .info_content .emailbox:after { content:"\f0dd"; position:absolute; 
+    top:50%; right:15px; font-family:'Font Awesome 5 Free'; font-weight:900; z-index:-1; color:red;  }
 .join_form .w320 { width:320px}
 .join_form .w160 { width:160px}
 .join_form .addr_box span { line-height:45px; }
@@ -29,6 +33,7 @@
 .join_form .gender_area label,
 .join_form .hobby_area label
 { line-height:45px; padding-right:15px  }
+
 .join_form .info_content textarea {
     height: 245px; width:70%;
     border:1px solid #ccc; 

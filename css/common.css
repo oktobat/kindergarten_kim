@@ -30,8 +30,12 @@ outline:none; width:200px }
 padding:0px 5px; vertical-align:top; font-size:11px;
 float:right }
 
-.topmenu .login { position:absolute; top:0; right:0; color:#000 }
+.topmenu .login { position:absolute; top:0; right:0; color:#000; display:none }
+.topmenu .login.on { display:block }
 .topmenu .login a { padding-left:10px; font-size:11px }
+.topmenu .logout { position:absolute; top:0; right:0; color:#000; display:none }
+.topmenu .logout.on { display:block }
+.topmenu .logout a { padding-left:10px; font-size:11px }
 
 .logoNav { position:relative; height:76px;  }
 .logoNav h1 { color:#ffae3d; 

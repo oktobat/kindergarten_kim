@@ -85,57 +85,57 @@ text-align:center }
     font-weight:bold }
 
 .act { padding:80px 0 }
-.act ul li { float:left; width:24%;
+.act .actul .actli { float:left; width:24%;
     background-size:auto;
     background-repeat:no-repeat;
     height:186px; margin:0 0.5%; 
     position:relative }
-.act ul li:nth-child(1) {
+.act .actul .actli:nth-child(1) {
     background-image:url(../images/main-business1.min.jpg); }
-.act ul li:nth-child(1):before {
+.act .actul .actli:nth-child(1):before {
     content:''; position:absolute;
     top:0; left:0; right:0; bottom:0;
     background-color: rgba(48, 120, 210, 0.5);
 }
-.act ul li:nth-child(2) {
+.act .actul .actli:nth-child(2) {
     background-image:url(../images/main-business2.min.jpg)
 }
-.act ul li:nth-child(2):before {
+.act .actul .actli:nth-child(2):before {
     content:''; position:absolute;
     top:0; left:0; right:0; bottom:0;
     background-color: rgba(255, 174, 61, 0.6);
 }
-.act ul li:nth-child(3) {
+.act .actul .actli:nth-child(3) {
     background-image:url(../images/main-business3.min.jpg)
 }
-.act ul li:nth-child(3):before {
+.act .actul .actli:nth-child(3):before {
     content:''; position:absolute;
     top:0; left:0; right:0; bottom:0;
     background-color: rgba(48, 205, 210, 0.5);
 }
-.act ul li:nth-child(4) {
+.act .actul .actli:nth-child(4) {
     background-image:url(../images/main-business4.min.jpg)
 }
-.act ul li:nth-child(4):before {
+.act .actul .actli:nth-child(4):before {
     content:''; position:absolute;
     top:0; left:0; right:0; bottom:0;
     background-color: rgba(247, 111, 111, 0.5);
 }
-.act ul li div { 
+.act .actul .actli div { 
     position:absolute; top:10px; left:20px;
     right:20px; bottom:10px; color:#fff; }
-.act ul li div h3 { margin:10px 0; 
+.act .actul .actli div h3 { margin:10px 0; 
     font-size:19.25px; font-weight:bold }    
-.act ul li div p { font-size:14px; margin:15px 0;
+.act .actul .actli div p { font-size:14px; margin:15px 0;
     line-height:1.5 }
-.act ul li div a { padding: 5px 20px;
+.act .actul .actli div a { padding: 5px 20px;
     font-size: 12px; line-height: 1.5;
     border-radius: 3px;  color: #f8f9fa;
     border:1px solid #f8f9fa; 
     letter-spacing:0.5px;
     transition:all 0.5s;
  }
-.act ul li div a:hover { 
+.act .actul .actli div a:hover { 
     color:#212529; background-color:#f8f9fa }
 
 
